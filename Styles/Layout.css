@@ -105,7 +105,7 @@ ul.menu-desplegable a:hover {
 		display: flex;
 		align-items: center;       /* Centra verticalmente */
 		justify-content: space-between; /* Deja logo a la izquierda y menú a la derecha */
-		padding: 0 5%;             /* Espaciado horizontal opcional */
+		padding: 0 5%;             Espaciado horizontal opcional
 	}
 
 	/* Asegurarte de que los elementos se muestren */

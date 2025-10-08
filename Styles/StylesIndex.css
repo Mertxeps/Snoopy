@@ -18,11 +18,11 @@ header ul li:nth-of-type(1) {
 		width: 100%;
 	}
 
-	main img {
+	#Dormilon {
 		display: block;        /* mejor que flex para imágenes */
 		margin: auto;
 		width: 30%;
-		max-width: 200px;      /* opcional: tamaño máximo en píxeles */
+		max-width: 20%;      /* opcional: tamaño máximo en píxeles */
 	}
 
 	p {
@@ -30,10 +30,74 @@ header ul li:nth-of-type(1) {
 		width: 80%;
 		font-size: 24px;
 	}
-	ul li {
+	main ul li {
 		margin: auto;
 		width: 80%;
 		font-size: 24px;
-		padding: 1%;
+		 padding: 1%;
+		margin-left: 14%;
 	}
+
+	#Lector {
+		display: block;
+		margin: auto;
+		width: 50%;
+		max-width: 20%;
+	}
+
+	main p {
+		margin-bottom: 1.5%;
+	}
+
+	.carousel {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+	width: 50%;
+    /*height: 55%;*/
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.carousel-images {
+	display: flex;
+    transition: transform 0.5s ease-in-out;
+	/*height: 5%;*/
+}
+
+.carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.prev { 
+    left: 10px; 
+}
+
+.next { 
+    right: 10px; 
+}
+
+.prev:hover, .next:hover {
+    background: rgba(0,0,0,0.8);
+}
+
 }
