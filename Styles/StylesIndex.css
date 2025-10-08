@@ -1,0 +1,39 @@
+
+header ul li:nth-of-type(1) {
+	text-decoration: overline;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 950px) {
+	
+	h1 {
+		text-align: center;
+		margin: auto;
+		width: 100%;
+	}
+
+	main img {
+		display: block;        /* mejor que flex para imágenes */
+		margin: auto;
+		width: 30%;
+		max-width: 200px;      /* opcional: tamaño máximo en píxeles */
+	}
+
+	p {
+		margin: auto;
+		width: 80%;
+		font-size: 24px;
+	}
+	ul li {
+		margin: auto;
+		width: 80%;
+		font-size: 24px;
+		padding: 1%;
+	}
+}

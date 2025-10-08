@@ -1,0 +1,58 @@
+
+header ul li:nth-of-type(5) {
+	text-decoration: overline;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 950px) {
+	p {
+		margin: auto;
+		width: 85%;
+		font-size: 24px;
+		margin-top: 1%;
+	}
+
+	figure {
+		margin: 0% auto;
+	}
+
+	figure img {
+		display: block;       /* Quita el comportamiento inline */
+		margin: 0 auto;       /* Centra horizontalmente */
+		margin-top: 2%
+	}
+
+	figcaption {
+		font-size: 24px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.Caricaturas {
+		margin: auto;
+		width: 100%;
+		display: inline-block;
+	}
+
+	.Caricaturas img {
+		width: calc(50% - 20px);
+	}
+
+	#Imagen1 {
+		margin-left: 1.1%;
+	}
+
+	#Imagen2 {
+		
+	}
+}

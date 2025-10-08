@@ -1,0 +1,52 @@
+
+header ul li:nth-of-type(4) {
+	text-decoration: overline;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 950px) {
+
+	#PrimerEspacio {
+		margin-top: 3%;
+	}
+	
+	p {
+		margin: auto;
+		width: 90%;
+		padding: 2%;
+		font-size: 24px;
+	}
+
+	iframe {
+		display: block;
+		margin: 0 auto;
+		border: none;
+		padding-bottom: 2%;
+
+	}
+
+	iframe {
+		width: 850px;
+		height: 585px;
+	}
+
+	h1 {
+		margin-left: 5%;
+		margin-bottom: 0;
+	}
+
+	#SinEspacio {
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
