@@ -79,4 +79,21 @@ header ul li:nth-of-type(3) {
 		padding: 1% 0;
 	}
 
+	#TamanoImagenes {
+		display: flex;            /* Coloca las imágenes en línea */
+		justify-content: center;  /* Centra el grupo de imágenes */
+		flex-wrap: wrap;          /* Permite que las imágenes bajen si no caben */
+		gap: 2%;                 /* Espacio de 5px entre imágenes */
+		margin: auto;
+		width: 100%;
+		margin-bottom: 2%;
+	}
+
+	#TamanoImagenes img {
+		width: 250px;   /* antes 150px */
+		height: 250px;  /* antes 150px */
+		object-fit: cover;
+		border-radius: 5px; /* opcional */
+	}
+
 }
