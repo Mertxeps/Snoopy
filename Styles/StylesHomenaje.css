@@ -17,15 +17,21 @@ header ul li:nth-of-type(3) {
 @media (min-width: 950px) {
 
 	.FondoImagen {
+		display: flex;
+		align-items: center;
 		margin: auto;
 		width: 100%;
+		margin-top: 2%;
 		background-color: gainsboro;
 	}
 
 	.FondoImagen img {
 		margin: 0% auto;
 		width: 50%;
+	}
 
+	.FondoImagen p {
+		margin: 5% 0 5% 3%;
 	}
 	
 	p {
