@@ -11,11 +11,33 @@ header ul li:nth-of-type(1) {
 
 /* MEDIA QUERIES */
 @media (min-width: 950px) {
+
+	.contenedor-scroll {
+		width: 35%;
+		margin-left: 30%;
+		overflow: hidden;     /* Oculta el contenido que no cabe */
+		white-space: nowrap;  /* Evita que el texto se corte en líneas nuevas */
+		box-sizing: border-box;
+	}
+
+	.contenedor-scroll p {
+	display: inline-block;        /* Permite que el texto se mueva como un solo bloque */
+	padding-left: 100%;           /* Empieza oculto fuera de la pantalla */
+	animation: scroll-left 10s linear infinite; /* Anima el texto */
+	color: blue;
+	font-size: 48px;
+	}
+
+	@keyframes scroll-left {
+	0% { transform: translateX(0); }          /* Inicio */
+	100% { transform: translateX(-200%); }    /* Fin del movimiento */
+	}
 	
 	h1 {
 		text-align: center;
 		margin: auto;
 		width: 100%;
+		margin-top: 3%
 	}
 
 	#Dormilon {
