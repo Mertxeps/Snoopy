@@ -16,10 +16,6 @@ header ul li:nth-of-type(2) {
 /* MEDIA QUERIES */
 @media (min-width: 950px) {
 	
-	/*main {
-		padding-top: 1%;
-	}*/
-
 	.Alinear {
 		margin: auto;
 		width: 100%;
@@ -58,6 +54,11 @@ header ul li:nth-of-type(2) {
 		width: 80%;
 		font-size: 24px;
 		padding-top: 1%;
+	}
+
+	.TamanoImagen {
+		margin: auto;
+		width: 20%;
 	}
 
 	.Alinear1 {
