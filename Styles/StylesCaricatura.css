@@ -105,9 +105,9 @@ header ul li:nth-of-type(5) {
 		100% { opacity: 1;}  
 	}
 
-	input[value="1"]:checked ~ div.contenedor div.cont:nth-child(1),
-	input[value="2"]:checked ~ div.contenedor div.cont:nth-child(2),
-	input[value="3"]:checked ~ div.contenedor div.cont:nth-child(3) {
+	input[value = "1"]:checked ~ div.contenedor div.cont:nth-child(1),
+	input[value = "2"]:checked ~ div.contenedor div.cont:nth-child(2),
+	input[value = "3"]:checked ~ div.contenedor div.cont:nth-child(3) {
 		opacity: 1;
 		display: block;
 		-webkit-animation-name: cambiaTab; 
