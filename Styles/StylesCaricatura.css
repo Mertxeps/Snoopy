@@ -179,6 +179,7 @@ header ul li:nth-of-type(5) {
 		position: relative;
 		margin: auto;
 		width: 50%;
+		/* height: 20%; */
 		overflow: hidden;
 		border-radius: 10px;
 		box-shadow: 0 4px 15px rgba(0,0,0,0.2);
@@ -188,6 +189,8 @@ header ul li:nth-of-type(5) {
 	.carousel-images {
 		display: flex;
 		transition: transform 0.5s ease-in-out;
+		width: 350%;
+		height: 750px;
 	}
 
 	.carousel-images img {
