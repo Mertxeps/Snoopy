@@ -3,6 +3,27 @@ header ul li:nth-of-type(1) {
 	text-decoration: overline;
 }
 
+.contenedor-scroll {
+	width: 35%;
+	margin-left: 30%;
+	overflow: hidden;     /* Oculta el contenido que no cabe */
+	white-space: nowrap;  /* Evita que el texto se corte en líneas nuevas */
+	box-sizing: border-box;
+}
+
+.contenedor-scroll p {
+	display: inline-block;        /* Permite que el texto se mueva como un solo bloque */
+	padding-left: 100%;           /* Empieza oculto fuera de la pantalla */
+	animation: scroll-left 10s linear infinite; /* Anima el texto */
+	color: blue;
+	font-size: 24px;
+}
+
+@keyframes scroll-left {
+	0% { transform: translateX(0); }          /* Inicio */
+	100% { transform: translateX(-250%); }    /* Fin del movimiento */
+}
+
 h1 {
 	text-align: center;
 }
@@ -10,9 +31,23 @@ h1 {
 main img {
 	display: block;  /* mejor que flex para imágenes */
 	margin: auto;
-	width: 30%;
+	width: 50%;
 	/* max-width: 20%; */
 }
+
+#Leyenda {
+	text-align: center;
+}
+
+main p {
+	margin: auto;
+	width: 75%;
+}
+
+h1:last-of-type {
+	font-size:large;
+}
+
 
 
 
