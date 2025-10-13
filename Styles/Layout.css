@@ -11,7 +11,6 @@ body {
 nav {
     position: sticky;
     top: 0;
-    background-color: white;
 }
 
 /* Esconde el cuadrado del checkbox */
@@ -76,21 +75,6 @@ ul.menu-desplegable a:hover {
     font-size: 24px;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* MEDIA QUERIES */
 @media (min-width: 950px) {
