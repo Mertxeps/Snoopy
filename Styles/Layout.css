@@ -71,11 +71,11 @@ ul.menu-desplegable a:hover {
         padding: .5%;
     }
 
-    .copy {
-        text-align: center;
-        font-size: 24px;
-        color: white;
-    }
+.copy {
+	text-align: center;
+    font-size: 24px;
+    color: white;
+}
 
 
 
