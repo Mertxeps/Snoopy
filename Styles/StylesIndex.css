@@ -24,6 +24,22 @@ header ul li:nth-of-type(1) {
 	100% { transform: translateX(-250%); }    /* Fin del movimiento */
 }
 
+main p {
+	margin: auto;
+	width: 75%;
+	text-align: justify;
+}
+
+main img:first-of-type {
+	margin-bottom: 2%;
+}
+
+#Leyenda {
+	margin-bottom: 2%;
+	font-size: 18px;
+	text-align: center;
+}
+
 h1 {
 	text-align: center;
 }
@@ -34,17 +50,28 @@ main img {
 	width: 50%;
 }
 
-#Leyenda {
-	text-align: center;
-}
-
-main p {
-	margin: auto;
-	width: 75%;
+ul li {
+	margin-top: auto;
+	width: 60%;
+	text-align: justify;
+	margin-left: 15%;
+	padding-bottom: 1.5%;
 }
 
 h1:last-of-type {
 	font-size:large;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+	font-size: 20px;
+}
+
+main p {
+	padding-bottom: 2%;
+}
+
+#Espacio {
+	margin-top: 0;
+	padding-top: 0;
 }
 
 /* MEDIA QUERIES */
