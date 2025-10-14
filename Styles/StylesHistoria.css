@@ -11,25 +11,34 @@ img {
 
 }
 
-main p {
-	margin: auto;
-	width: 80%;
-}
-
-h1 {
-	font-size: large;
-}
-
 .Alinear img {
 	width: 45%;
 }
 
-p {
+main p {
+	margin: auto;
+	width: 80%;
 	padding: 2% 0;
+	text-align: justify;
+	font-size: 18px;
+}
+
+h1 {
+	font-size:x-large;
+	margin-left: 10%;
+}
+
+main ul {
+	width: 70%;
+	margin-left: 10%;
 }
 
 main ul li {
-	padding: 1% 0;
+	padding: 1% 10%;
+	padding-left: 2.5%;
+	margin-bottom: 2%;
+	text-align: justify;
+	font-size: 18px;
 }
 
 .TamanoImagen:first-child {
@@ -42,20 +51,11 @@ main ul li:first-child {
 
 .Alinear1 img {
 	width: 50%;
+	margin-bottom: 4%;
 }
-
-
-
-
-
-
-
-
-
 
 /* MEDIA QUERIES */
 @media (min-width: 950px) {
-	
 	.Alinear {
 		margin: auto;
 		width: 100%;
