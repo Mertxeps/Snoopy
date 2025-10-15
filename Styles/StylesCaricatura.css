@@ -121,6 +121,7 @@ main p:last-of-type {
 		background-color: bisque;
 		opacity: 0;
 		display: none;
+		padding-top: 1%;
 		padding-bottom: 1%;
 	}
 
@@ -170,6 +171,7 @@ main p:last-of-type {
 
 	figure {
 		margin: 0% auto;
+		width: 80%;
 	}
 
 	figure img {
