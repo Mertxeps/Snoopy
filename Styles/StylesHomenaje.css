@@ -3,6 +3,30 @@ header ul li:nth-of-type(3) {
 	text-decoration: overline;
 }
 
+.FondoImagen {
+	display: flex;
+	align-items: center;
+	margin: auto;
+	width: 100%;
+	margin-top: 2%;
+	background-color: gainsboro;
+	margin-bottom: 3%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.FondoImagen img {
+	width: 30%;
+}
+
+.FondoImagen p {
+	width: 65%;
+	text-align: center;
+}
+
+/* #FirstSnoopy ´{
+	margin-top: 2%;
+} */
+
 main p {
 	margin: auto;
 	width: 90%;
@@ -37,7 +61,7 @@ ul li:not(ul li:first-of-type) {
 	gap: 15px;                  /* espacio entre imágenes */
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap; 
+	flex-wrap: wrap;
 }
 
 #TamanoImagenes img {
@@ -45,11 +69,13 @@ ul li:not(ul li:first-of-type) {
 	height: 250px;
 	object-fit: cover;
 	border-radius: 5px;
+	margin-left: 20%;
+	margin-bottom: 5%;
 }
 
-/* h1:last-of-type {
+#TamanoImagenes img:last-of-type {
 	margin-bottom: 0%;
-} */
+}
 
 
 
