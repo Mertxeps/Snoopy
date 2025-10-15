@@ -3,6 +3,54 @@ header ul li:nth-of-type(3) {
 	text-decoration: overline;
 }
 
+main p {
+	margin: auto;
+	width: 90%;
+	text-align: justify;
+}
+
+h1 {
+	font-size: x-large;
+}
+
+figcaption {
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+}
+
+ul li {
+	margin: auto;
+	width: 85%;
+	text-align: justify;
+}
+
+ul li:not(ul li:first-of-type) {
+	padding-top: 2%;
+}
+
+.TamanoImagenes {
+	margin: auto;
+	width: 90%;
+	display: flex;
+	flex-direction: column;     /* que las figuras estén una debajo de otra */
+	gap: 15px;                  /* espacio entre imágenes */
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap; 
+}
+
+#TamanoImagenes img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+/* h1:last-of-type {
+	margin-bottom: 0%;
+} */
+
 
 
 
@@ -83,7 +131,7 @@ header ul li:nth-of-type(3) {
 		display: flex;            /* Coloca las imágenes en línea */
 		justify-content: center;  /* Centra el grupo de imágenes */
 		flex-wrap: wrap;          /* Permite que las imágenes bajen si no caben */
-		gap: 2%;                 /* Espacio de 5px entre imágenes */
+		gap: 2%;
 		margin: auto;
 		width: 100%;
 		margin-bottom: 2%;
@@ -93,7 +141,7 @@ header ul li:nth-of-type(3) {
 		width: 250px;   /* antes 150px */
 		height: 250px;  /* antes 150px */
 		object-fit: cover;
-		border-radius: 5px; /* opcional */
+		border-radius: 5px;
 	}
 
 }
