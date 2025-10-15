@@ -142,10 +142,9 @@ ul li:not(ul li:first-of-type) {
 	#TamanoImagenes {
 		display: flex;            /* Coloca las imágenes en línea */
 		justify-content: center;  /* Centra el grupo de imágenes */
-		flex-wrap: wrap;          /* Permite que las imágenes bajen si no caben */
 		gap: 2%;
 		margin: auto;
-		width: 100%;
+		width: 30%;
 		margin-bottom: 2%;
 	}
 
