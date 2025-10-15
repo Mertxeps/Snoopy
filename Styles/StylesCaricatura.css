@@ -6,7 +6,6 @@ header ul li:nth-of-type(5) {
 figure img {
 	margin: auto;
 	width: 100%;
-	/* margin-left: 0%; */
 }
 
 figcaption {
@@ -37,6 +36,19 @@ main p:last-of-type {
 	padding-bottom: 2%;
 	font-size: 20px;
 	text-align: justify;
+}
+
+.Caricaturas img {
+	width: calc(100% - 20px);
+}
+
+.carousel {
+	margin: auto;
+	width: 50%;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+	margin-bottom: 1.5%;
 }
 
 
