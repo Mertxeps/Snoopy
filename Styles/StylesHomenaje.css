@@ -76,6 +76,10 @@ ul li:not(ul li:first-of-type) {
 	margin-bottom: 0%;
 }
 
+h1:last-of-type {
+	font-size: 22px;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 950px) {
 	.FondoImagen {
