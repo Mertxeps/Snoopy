@@ -132,8 +132,14 @@ main p:last-of-type {
 }
 
 .carousel {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 	margin: auto;
-	width: 90%;
+	width: 95%;
 	overflow: hidden;
 	border-radius: 10px;
 	box-shadow: 0 4px 15px rgba(0,0,0,0.2);
@@ -141,41 +147,42 @@ main p:last-of-type {
 }
 
 .carousel-images {
-		display: flex;
-		transition: transform 0.5s ease-in-out;
-		width: 350%;
-		height: 750px;
-	}
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+	width: 200%; /* 350% */
+	height: 750px;
+}
 
-	.carousel-images img {
-		width: 90%;
-		flex-shrink: 0;
-	}
+.carousel-images img {
+	width: 90%;
+	flex-shrink: 0;
+	padding-left: 8%;
+}
 
-	.prev, .next {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-		background: rgba(0,0,0,0.5);
-		color: white;
-		border: none;
-		padding: 10px;
-		cursor: pointer;
-		border-radius: 50%;
-		font-size: 18px;
-	}
+.prev, .next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(0,0,0,0.5);
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 50%;
+	font-size: 18px;
+}
 
-	.prev { 
-		left: 10px; 
-	}
+.prev { 
+	left: 10px; 
+}
 
-	.next { 
-		right: 10px; 
-	}
+.next { 
+	right: 10px; 
+}
 
-	.prev:hover, .next:hover {
-		background: rgba(0,0,0,0.8);
-	}
+.prev:hover, .next:hover {
+	background: rgba(0,0,0,0.8);
+}
 
 
 
