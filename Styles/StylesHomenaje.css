@@ -52,6 +52,10 @@ ul li:not(ul li:first-of-type) {
 	padding-top: 2%;
 }
 
+ul li ul li {
+	padding-top: 3%;
+}
+
 .TamanoImagenes {
 	margin: auto;
 	width: 90%;
