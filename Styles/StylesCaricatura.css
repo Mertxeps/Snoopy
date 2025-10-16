@@ -3,6 +3,100 @@ header ul li:nth-of-type(5) {
 	text-decoration: overline;
 }
 
+h1 small {
+	color: #e25353;
+	font-size: 20px;
+	/* margin-top: 0%;
+	padding-top: 0%; */
+}
+
+#wrapper {
+	width: 90%;
+	height: 100%;
+	margin: 10px auto;
+	border: 1px solid #e73333;
+	background-color: burlywood;
+	padding: 20px;
+}
+
+.wrapper p {
+	padding: 15px;
+}
+
+input[name = "tab"] {
+	position: absolute;
+	left: -1000em;
+	padding: auto;
+}
+
+#wrapper label{ 
+	display: inline-block; 
+	text-align: center; 
+	width: 19%; 
+	height: 10%; 
+	padding: 10px 42px;
+	padding-left: 5px; 
+	margin: 0.3%;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;  
+	border: 1px solid #87b980;
+	border-right: none;
+	background-color: #c06868;
+	position: relative;
+	top: 2px;
+	z-index: 99;
+} 
+
+label:last-of-type {
+	border-right: 1px solid #cbc6cf;
+}
+
+div.cont {
+	float: left;
+	border: 1px solid #e734b2;
+	background-color: bisque;
+	opacity: 0;
+	display: none;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+input:checked+label {
+	border-bottom: none;
+	background-color: rgb(195, 186, 235);
+}
+
+@keyframes cambiaTab {   
+	0%   { opacity: 0;}   
+	100% { opacity: 1;}  
+}
+
+@-webkit-keyframes cambiaTab {   
+	0%   { opacity: 0;}   
+	100% { opacity: 1;}  
+}
+
+input[value = "1"]:checked ~ div.contenedor div.cont:nth-child(1),
+input[value = "2"]:checked ~ div.contenedor div.cont:nth-child(2),
+input[value = "3"]:checked ~ div.contenedor div.cont:nth-child(3) {
+	opacity: 1;
+	display: block;
+	-webkit-animation-name: cambiaTab; 
+	-webkit-animation-duration: 1s;
+	animation-name: cambiaTab; 
+	animation-duration: 1s;
+}
+
+.clearfix {
+	clear:both;
+}
+
+
+
+
+	
+
 figure img {
 	margin: auto;
 	width: 100%;
@@ -97,7 +191,6 @@ main p:last-of-type {
 
 	.wrapper p {
 		padding: 15px;
-		/* padding-bottom: 1%; */
 	}
 
 	input[name = "tab"] {
@@ -106,23 +199,24 @@ main p:last-of-type {
 		padding: auto;
 	}
 
-	label{ 
+	#wrapper label{ 
 		display: inline-block; 
 		text-align: center; 
 		width: 15%; 
 		height: 10%; 
-		padding: 10px 25px; 
+		padding: 10px 25px;
+		padding-left: 10px; 
 		margin: 0.3%;
 		font-weight: bold;
 		text-transform: uppercase;  
 		border: 1px solid #87b980;
 		border-right: none;
 		background-color: #c06868;
-		float: left;
 		position: relative;
 		top: 2px;
 		z-index: 99;
 	} 
+
 	label:last-of-type {
 		border-right: 1px solid #cbc6cf;
 	}
@@ -269,5 +363,4 @@ main p:last-of-type {
 	.prev:hover, .next:hover {
 		background: rgba(0,0,0,0.8);
 	}
-
 }
