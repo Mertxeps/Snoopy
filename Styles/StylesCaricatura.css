@@ -29,10 +29,10 @@ input[name = "tab"] {
 	padding: auto;
 }
 
-#wrapper label{ 
+#wrapper label { 
 	display: inline-block; 
 	text-align: center; 
-	width: 19%; 
+	width: 22%; 
 	height: 10%; 
 	padding: 10px 41px;
 	padding-left: 5px; 
@@ -46,7 +46,10 @@ input[name = "tab"] {
 	position: relative;
 	top: 2px;
 	z-index: 99;
-} 
+}
+
+#wrapper label:last-of-type {
+	width: 10%;
 
 label:last-of-type {
 	border-right: 1px solid #cbc6cf;
@@ -92,7 +95,17 @@ input[value = "3"]:checked ~ div.contenedor div.cont:nth-child(3) {
 	clear:both;
 }
 
-gure img {
+.otras h3 {
+	padding:30px 0 10px 0;
+	margin: 0%;
+}
+.otras p {
+	padding: 0
+	margin: 0%;
+	text-align: justify;
+}	
+
+figure img {
 	margin: auto;
 	width: 100%;
 }
@@ -103,12 +116,11 @@ figcaption {
 	text-align: center;
 }
 
-.contenedor p {
+.container p {
 	margin:auto;
 	width: 90%;
 	font-size: 18px;
 	text-align: justify;
-
 }
 
 .otras p {
