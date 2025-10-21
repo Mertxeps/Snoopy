@@ -56,22 +56,22 @@ label:last-of-type {
 	border-right: 1px solid #cbc6cf;
 }
 
-.container {
-	/* float: left; */
+div.cont {
+	float: left;
 	border: 1px solid #e734b2;
 	background-color: bisque;
-	/* opacity: 0; */
-	/* display: none; */
+	opacity: 0; 
+	display: none;
 	padding-top: 2%;
 	/* padding-bottom: 1%; */
 }
 
-.container p {
+/* .container p {
 	margin: auto;
 	width: 90%;
 	font-size: 18px;
 	text-align: justify;
-}
+} */
 
 input:checked+label {
 	border-bottom: none;
@@ -98,9 +98,9 @@ input:checked+label {
 	}
 }
 
-input[value="1"]:checked~div.contenedor div.cont:nth-child(1),
-input[value="2"]:checked~div.contenedor div.cont:nth-child(2),
-input[value="3"]:checked~div.contenedor div.cont:nth-child(3) {
+input[value="1"]:checked ~ div.contenedor div.cont:nth-child(1),
+input[value="2"]:checked ~ div.contenedor div.cont:nth-child(2),
+input[value="3"]:checked ~ div.contenedor div.cont:nth-child(3) {
 	opacity: 1;
 	display: block;
 	-webkit-animation-name: cambiaTab;
