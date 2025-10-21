@@ -184,6 +184,10 @@ main p:last-of-type {
 	padding-left: 8%;
 }
 
+.prev, .next {
+	display: none;
+}
+
 /* .prev,
 .next {
 	position: absolute;
