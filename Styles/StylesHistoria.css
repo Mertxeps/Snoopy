@@ -30,6 +30,13 @@ main p {
 	border-radius: 5%;
 }
 
+#SnoopyAviadorTejado {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 60%;
+	border-radius: 30%;
+}
+
 h1 {
 	font-size:x-large;
 	margin-left: 10%;
@@ -112,6 +119,13 @@ main ul li:first-child {
 		margin-bottom: 2%;
 		width: 20%;
 		border-radius: 5%;
+	}
+
+	#SnoopyAviadorTejado {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		width: 30%;
+		border-radius: 30%;
 	}
 
 	#SnoopyAviador {
