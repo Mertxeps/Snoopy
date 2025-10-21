@@ -107,6 +107,20 @@ main ul li:first-child {
 		padding: 1%
 	}
 
+	#SnoopyCafe {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		width: 20%;
+		border-radius: 5%;
+	}
+
+	#SnoopyAviador {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		width: 20%;
+		border-radius: 5%;
+	}
+
 	.Espaciado h1 {
 		margin: auto;
 		width: 90%;
