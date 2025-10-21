@@ -23,6 +23,14 @@ h1 {
 	margin-left: 12%;
 }
 
+#Snoopyplaya {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding-bottom: 2%;
+	border-radius: 15%;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 950px) {
 	#PrimerEspacio {
