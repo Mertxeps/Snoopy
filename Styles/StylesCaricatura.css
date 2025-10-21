@@ -98,9 +98,9 @@ input:checked+label {
 	}
 }
 
-input[value="1"]:checked ~ div.contenedor div.cont:nth-child(1),
-input[value="2"]:checked ~ div.contenedor div.cont:nth-child(2),
-input[value="3"]:checked ~ div.contenedor div.cont:nth-child(3) {
+input[value="1"]:checked ~ div.container div.cont:nth-child(1),
+input[value="2"]:checked ~ div.container div.cont:nth-child(2),
+input[value="3"]:checked ~ div.container div.cont:nth-child(3) {
 	opacity: 1;
 	display: block;
 	-webkit-animation-name: cambiaTab;
@@ -321,9 +321,9 @@ main p:last-of-type {
 		}
 	}
 
-	input[value="1"]:checked~div.contenedor div.cont:nth-child(1),
-	input[value="2"]:checked~div.contenedor div.cont:nth-child(2),
-	input[value="3"]:checked~div.contenedor div.cont:nth-child(3) {
+	input[value="1"]:checked~div.container div.cont:nth-child(1),
+	input[value="2"]:checked~div.container div.cont:nth-child(2),
+	input[value="3"]:checked~div.container div.cont:nth-child(3) {
 		opacity: 1;
 		display: block;
 		-webkit-animation-name: cambiaTab;
