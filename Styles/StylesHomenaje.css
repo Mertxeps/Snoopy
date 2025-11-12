@@ -43,7 +43,10 @@ figure img {
   max-width: 90%;      /* que no sobresalga del ancho del móvil */
   height: auto;        /* mantiene la proporción original */
   padding-left: 0;
-  text-align: center;
+}
+
+figure {
+	text-align: center;
 }
 
 figcaption {
