@@ -30,7 +30,7 @@ input[name="tab"] {
 	display: inline-block;
     text-align: center;
     vertical-align: top;
-    width: 30%;          /* Cada pestaña ocupa aprox. un tercio */
+    width: 45%;          /* Cada pestaña ocupa aprox. un tercio */
     font-size: 12px;
     padding: 5px 5px;    /* Menos padding para que no sobresalga */
     box-sizing: border-box; /* Asegura que padding + width no desborde */
