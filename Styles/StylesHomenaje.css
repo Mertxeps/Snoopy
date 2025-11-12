@@ -42,6 +42,8 @@ figure img {
   margin: 0 auto;      /* centra horizontalmente */
   max-width: 90%;      /* que no sobresalga del ancho del móvil */
   height: auto;        /* mantiene la proporción original */
+  padding-left: 0;
+  text-align: center;
 }
 
 figcaption {
