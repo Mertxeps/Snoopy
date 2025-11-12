@@ -35,10 +35,11 @@ main p {
 
 h1 {
 	font-size: x-large;
+	margin-left: 5%;
 }
 
 figure {
-    width: 100%;        /* ocupa todo el ancho del contenedor */
+    width: 100%;
     margin: 0 auto;     /* centra el figure */
     padding: 0;
     text-align: center; /* centra el figcaption */
