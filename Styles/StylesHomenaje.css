@@ -46,7 +46,9 @@ figure img {
 }
 
 figure {
-	text-align: center;
+  margin: 0 auto;         /* centra el bloque figure */
+  padding: 0;             /* elimina cualquier relleno interno */
+  text-align: center;
 }
 
 figcaption {
