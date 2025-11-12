@@ -1,4 +1,3 @@
-/* --- ESTILOS BASE --- */
 header ul li:nth-of-type(5) {
   text-decoration: overline;
 }
@@ -21,7 +20,6 @@ h1 small {
   padding: 15px;
 }
 
-/* --- INPUTS / PESTAÑAS --- */
 input[name="tab"] {
   position: absolute;
   left: -1000em;
@@ -29,7 +27,7 @@ input[name="tab"] {
 
 #wrapper label {
   display: inline-block;
-  width: 30%;               /* ancho base para móviles */
+  width: 30%;
   text-align: center;
   padding: 10px 5px;
   border: 1px solid #cbc6cf;
@@ -49,7 +47,6 @@ input:checked + label {
   color: #000;
 }
 
-/* --- CONTENEDORES DE TAB --- */
 .container {
   border: 1px solid #e734b2;
   background-color: bisque;
@@ -83,7 +80,6 @@ input[value="3"]:checked ~ div.container div.cont:nth-child(3) {
   clear: both;
 }
 
-/* --- OTRAS SECCIONES --- */
 .otras h3 {
   padding: 30px 0 10px 0;
   margin: 0;
@@ -146,6 +142,12 @@ main p:last-of-type {
   width: 90%;
   flex-shrink: 0;
   padding-left: 8%;
+}
+
+.carousel button.prev,
+.carousel button.next {
+  display: none; /* Oculta completamente los botones */
+  /* alternativamente, se puede usar visibility: hidden; */
 }
 
 /* --- MEDIA QUERIES PARA ESCRITORIO (>950px) --- */
@@ -236,5 +238,10 @@ main p:last-of-type {
 
   .carousel-images img {
     width: 100%;
+  }
+  .carousel button.prev,
+  .carousel button.next {
+    display: none; /* Oculta completamente los botones */
+    /* alternativamente, se puede usar visibility: hidden; */
   }
 }
