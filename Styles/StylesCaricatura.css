@@ -28,23 +28,6 @@ input[name="tab"] {
 
 #wrapper label {
 	display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    width: 45%;          /* Cada pestaña ocupa aprox. un tercio */
-    font-size: 12px;
-    padding: 5px 5px;    /* Menos padding para que no sobresalga */
-    box-sizing: border-box; /* Asegura que padding + width no desborde */
-	height: auto;       /* deja que el contenido marque la altura */
-    line-height: 1.2em; /* ajusta el alto de línea para que quede bien */
-  }
-
-  #wrapper label:last-of-type {
-    width: 30%;          /* La última pestaña igual que las demás */
-    border-right: 1px solid #cbc6cf;
-  }
-
-/* #wrapper label {
-	display: inline-block;
 	text-align: center;
 	width: 22%;
 	height: 10%;
@@ -64,7 +47,7 @@ input[name="tab"] {
 
 #wrapper label:last-of-type {
 	width: 10%;
-} */
+}
 
 label:last-of-type {
 	border-right: 1px solid #cbc6cf;
@@ -192,6 +175,26 @@ main p:last-of-type {
 }
 
 /* MEDIA QUERIES */
+
+/* --- Ajustes específicos para móviles (pantallas menores de 950px) --- */
+@media (max-width: 950px) {
+  #wrapper label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;           /* Cada pestaña ocupa aprox. 1/3 */
+    font-size: 12px;      /* Texto más pequeño para que quepa */
+    padding: 5px 5px;     /* Menos relleno */
+    height: auto;         /* Deja que se ajuste a su contenido */
+    line-height: 1.2em;
+    box-sizing: border-box;
+  }
+
+  #wrapper label:last-of-type {
+    border-right: 1px solid #cbc6cf; /* Borde derecho igual que las otras */
+  }
+}
+
 @media (min-width: 950px) {
 	* {
 		padding: 0;
@@ -386,21 +389,3 @@ main p:last-of-type {
 	}
 }
 
-@media (max-width: 480px) {
-  #wrapper label {
-	display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    width: 30%;          /* Cada pestaña ocupa aprox. un tercio */
-    font-size: 12px;     /* Reduce el tamaño de la letra */
-    padding: 5px 5px;    /* Menos padding para que no sobresalga */
-    box-sizing: border-box; /* Asegura que padding + width no desborde */
-	height: auto;       /* deja que el contenido marque la altura */
-    line-height: 1.2em; /* ajusta el alto de línea para que quede bien */
-  }
-
-  #wrapper label:last-of-type {
-    width: 30%;          /* La última pestaña igual que las demás */
-    border-right: 1px solid #cbc6cf;
-  }
-}
