@@ -37,19 +37,20 @@ h1 {
 	font-size: x-large;
 }
 
-figure img {
-  display: block;      /* evita el pequeño espacio de las imágenes inline */
-  margin: 0 auto;      /* centra horizontalmente */
-  max-width: 90%;      /* que no sobresalga del ancho del móvil */
-  height: auto;        /* mantiene la proporción original */
-  padding-left: 0;
-}
-
 figure {
-  margin: 0 auto;         /* centra el bloque figure */
-  padding: 0;             /* elimina cualquier relleno interno */
-  text-align: center;
-}
+    width: 100%;        /* ocupa todo el ancho del contenedor */
+    margin: 0 auto;     /* centra el figure */
+    padding: 0;
+    text-align: center; /* centra el figcaption */
+  }
+
+  figure img {
+    display: block;
+    margin: 0 auto;     /* centra la imagen dentro del figure */
+    max-width: 90%;     /* que no sobresalga del ancho del contenedor */
+    height: auto;       /* mantiene proporción */
+    padding: 0;
+  }
 
 figcaption {
 	font-weight: bold;
