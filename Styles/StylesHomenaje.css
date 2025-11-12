@@ -36,6 +36,7 @@ main p {
 h1 {
 	font-size: x-large;
 	text-align: center;
+	margin-left: 5%;
 }
 
 figure {
