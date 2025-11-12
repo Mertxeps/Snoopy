@@ -37,6 +37,13 @@ h1 {
 	font-size: x-large;
 }
 
+figure img {
+  display: block;      /* evita el pequeño espacio de las imágenes inline */
+  margin: 0 auto;      /* centra horizontalmente */
+  max-width: 90%;      /* que no sobresalga del ancho del móvil */
+  height: auto;        /* mantiene la proporción original */
+}
+
 figcaption {
 	font-weight: bold;
 	font-size: 17px;
@@ -61,8 +68,8 @@ ul li ul li {
 	margin: auto;
 	width: 90%;
 	display: flex;
-	flex-direction: column;     /* Hace que las figuras estén una debajo de otra */
-	gap: 15px;                  /* Espacio entre imágenes */
+	flex-direction: column;
+	gap: 15px;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -154,7 +161,7 @@ h1:last-of-type {
 
 	#TamanoImagenes {
 		display: flex;            /* Coloca las imágenes en línea */
-		justify-content: center;  /* Centra el grupo de imágenes */
+		justify-content: center;
 		gap: 2%;
 		margin: auto;
 		width: 30%;
