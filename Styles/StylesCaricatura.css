@@ -28,6 +28,23 @@ input[name="tab"] {
 
 #wrapper label {
 	display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;          /* Cada pestaña ocupa aprox. un tercio */
+    font-size: 12px;
+    padding: 5px 5px;    /* Menos padding para que no sobresalga */
+    box-sizing: border-box; /* Asegura que padding + width no desborde */
+	height: auto;       /* deja que el contenido marque la altura */
+    line-height: 1.2em; /* ajusta el alto de línea para que quede bien */
+  }
+
+  #wrapper label:last-of-type {
+    width: 30%;          /* La última pestaña igual que las demás */
+    border-right: 1px solid #cbc6cf;
+  }
+
+/* #wrapper label {
+	display: inline-block;
 	text-align: center;
 	width: 22%;
 	height: 10%;
@@ -47,8 +64,7 @@ input[name="tab"] {
 
 #wrapper label:last-of-type {
 	width: 10%;
-
-}
+} */
 
 label:last-of-type {
 	border-right: 1px solid #cbc6cf;
