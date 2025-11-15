@@ -27,7 +27,7 @@ input[name="tab"] {
 
 #wrapper label {
   display: inline-block;
-  width: 35%;
+  width: 40%;
   text-align: center;
   padding: 10px 5px;
   border: 1px solid #cbc6cf;
@@ -40,7 +40,7 @@ input[name="tab"] {
 
 #wrapper label:last-of-type {
   border-right: 1px solid #cbc6cf;
-  width: 30%;
+  width: 20%;
 }
 
 input:checked + label {
